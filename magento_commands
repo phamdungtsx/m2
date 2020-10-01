@@ -1,0 +1,19 @@
+ 
+  setup:di:compile                            Generates DI configuration and all missing classes that can be auto-generated
+  cache:clean                                 Cleans cache type(s)
+  setup:upgrade                               Upgrades the Magento application, DB data, and schema
+  admin:user:create                           Creates an administrator
+  cache:disable                               Disables cache type(s)
+  cache:enable                                Enables cache type(s)
+  cache:flush                                 Flushes cache storage used by cache type(s)
+  cache:status                                Checks cache status
+  cron:install                                Generates and installs crontab for current user
+  deploy:mode:set developer                   Set application mode.
+  deploy:mode:show                            Displays current application mode.
+  module:config:status                        Checks the modules configuration in the 'app/etc/config.php' file and reports if they are up to date or not
+  module:status                               Displays status of modules
+  sampledata:deploy                           Deploy sample data modules for composer-based Magento installations
+  setup:static-content:deploy                 Deploys static view files
+  store:list                                  Displays the list of stores
+  store:website:list                          Displays the list of websites
+  webpos:deploy                               Deploy the pos app
